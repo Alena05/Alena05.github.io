@@ -1,0 +1,37 @@
+.block{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: antiquewhite; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    text-align: center;
+}
+.picture{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 33%;
+    top: -15%;
+    background-image: url(Desert.jpg);
+    background-size: cover;
+    background-position: -20px 0px;
+}
+.name{
+    margin-top: 80px;
+}
+.link{
+    text-decoration: none;
+    color: red;
+    margin-top: 30px;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
